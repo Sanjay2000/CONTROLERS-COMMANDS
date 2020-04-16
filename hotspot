@@ -1,0 +1,22 @@
+sudo su # for terminal root
+then 
+enter : create_ap wlp3s0 wlp3s0 # for enabling hotspot
+SSID me hotspot ka naam hoga
+Passphrase: me password enter krna hai
+
+
+
+hotspot  code
+
+
+ sudo apt-get install hostapd git build-essential
+ git clone https://github.com/oblique/create_ap.git
+ cd create_ap
+ sudo make install
+ sudo create_ap
+ create_ap wlp2s0 wlp2s0
+
+
+Make uninstall Create_ap
+
+  sudo apt-get remove hostapd
